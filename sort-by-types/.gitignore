@@ -3,3 +3,4 @@ node_modules/**/*
 *.iml
 *.xml
 .DS_Store
+build/**/*
