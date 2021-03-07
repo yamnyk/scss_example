@@ -1,0 +1,72 @@
+@media (max-width: $desktop) and (min-width: $tablet+1) {
+  .product-list {
+    padding: 90px 0;
+
+    &__card {
+      width: calc((100% / 2) - 20px);
+    }
+  }
+}
+@media (max-width: $tablet) and (min-width: $mobileLG+1) {
+  .product-list {
+    width: calc(100% - 210px - 30px);
+    padding: 100px 0;
+
+    &-pannel {
+      width: 210px;
+    }
+
+    &__card {
+      padding: 20px;
+    }
+  }
+}
+
+@media (max-width: $mobileLG) {
+  .product-list {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+
+    &-bg {
+      background-color: transparent;
+    }
+
+    &-wrapper {
+      flex-direction: column;
+
+      &.container {
+        padding: 0;
+      }
+    }
+
+    &-pannel {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+    }
+
+    &__card {
+      max-width: 290px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .product-list {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: $pink;
+
+    &-pannel {
+      margin-bottom: 30px;
+    }
+
+    &__card {
+      width: 100%;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+}

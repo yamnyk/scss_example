@@ -1,0 +1,35 @@
+.benefits {
+  background-color: $green;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &__title {
+    padding: 20px;
+    background-color: $grey;
+    margin-bottom: 75px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__card {
+    box-sizing: border-box;
+    width: calc((100% / 3) - 20px);
+    padding: 30px;
+    background-color: $violet;
+  }
+
+  &__img {
+    height: 160px;
+    background-color: $red;
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    padding: 30px;
+    background-color: $aqua;
+  }
+}

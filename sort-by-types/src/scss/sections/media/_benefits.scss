@@ -1,0 +1,50 @@
+@media (max-width: $desktop) and (min-width: $tablet+1) {
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    &__card {
+      order: 0;
+    }
+    &__title {
+      order: 1;
+      margin: 50px 0 0 0;
+    }
+  }
+}
+
+@media (max-width: $tablet) and (min-width: $mobileLG+1) {
+  .benefits {
+    &__card {
+      width: calc((100% / 2) - 20px);
+      margin-bottom: 30px;
+    }
+    &__title {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: $mobileLG) {
+  .benefits {
+    margin-bottom: 80px;
+
+    &__card {
+      width: 100%;
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &__title {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: $mobileLG) {
+  .benefits {
+    padding: 30px;
+    margin-bottom: 0;
+  }
+}

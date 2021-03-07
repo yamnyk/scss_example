@@ -1,0 +1,39 @@
+$grey: #c4c4c4;
+$aqua: #6ec9e5;
+$pink: #f1c7d6;
+$red: #c82c2c;
+$darkGreen: #597461;
+$green: #daea9a;
+$violet: #686797;
+
+$desktop: 1280px;
+$tablet: 768px;
+$mobileLG: 540px;
+$mobile: 325px;
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: $desktop) and (min-width: $tablet+1) {
+    box-sizing: border-box;
+    max-width: initial;
+    padding: 0 80px;
+  }
+
+  @media (max-width: $tablet) and (min-width: $mobileLG+1) {
+    box-sizing: border-box;
+    padding: 0 40px;
+  }
+
+  @media (max-width: $mobileLG) and (min-width: $mobile+1) {
+    box-sizing: border-box;
+    padding: 0 45px;
+  }
+
+  @media (max-width: $mobile) {
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+}

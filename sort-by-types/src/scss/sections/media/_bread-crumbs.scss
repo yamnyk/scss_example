@@ -1,0 +1,16 @@
+@media (max-width: $desktop) and (min-width: $tablet+1) {
+  .bread-crumbs {
+    margin: 60px 0 20px;
+  }
+}
+@media (max-width: $tablet) and (min-width: $mobileLG+1) {
+  .bread-crumbs {
+    margin: 60px 40px 20px;
+  }
+}
+
+@media (max-width: $tablet) and (min-width: $mobileLG+1) {
+  .bread-crumbs {
+    margin: 40px 0;
+  }
+}

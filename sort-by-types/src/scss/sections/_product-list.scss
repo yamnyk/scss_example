@@ -1,0 +1,52 @@
+.product-list-bg {
+  background-color: $pink;
+}
+
+.product-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list-pannel {
+  width: 350px;
+  align-self: stretch;
+  background: $aqua;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 350px - 40px);
+  padding: 100px 0 100px;
+
+  &__card {
+    box-sizing: border-box;
+    width: calc((100% / 3) - 20px);
+    padding: 30px 40px;
+    background-color: $grey;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    height: 150px;
+    background-color: $red;
+  }
+
+  &__title {
+    padding: 15px;
+    background-color: $darkGreen;
+    margin: 10px 0;
+  }
+
+  &__desc {
+    padding: 20px;
+    background-color: $darkGreen;
+    margin-bottom: 10px;
+  }
+
+  &__btn {
+    padding: 15px;
+    background-color: $darkGreen;
+  }
+}
