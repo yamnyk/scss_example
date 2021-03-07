@@ -10,9 +10,9 @@ sass.compiler = require("node-sass");
 const paths = {
   html: "./index.html",
   src: {
-    scss: "./src/scss/**/*.scss",
-    js: "./src/js/*.js",
-    img: "./src/img/*",
+    scss: "./src/**/*.scss",
+    js: "./src/*.js",
+    img: "./src/*.jpeg",
   },
   build: {
     css: "./build/css/",
