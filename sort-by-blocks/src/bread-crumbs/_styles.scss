@@ -1,0 +1,15 @@
+.bread-crumbs {
+  padding: 20px;
+  background-color: $aqua;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  @media (max-width: $desktop) and (min-width: $tablet+1) {
+    margin: 60px 0 20px;
+  }
+  @media (max-width: $tablet) and (min-width: $mobileLG+1) {
+    margin: 60px 40px 20px;
+  }
+  @media (max-width: $mobileLG) and (min-width: $mobile+1) {
+    margin: 40px 0;
+  }
+}
